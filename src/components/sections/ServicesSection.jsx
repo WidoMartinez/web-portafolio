@@ -1,81 +1,81 @@
 import React from "react";
 import {
 	ArrowUpRight,
-	Search,
-	FileText,
-	Share2,
-	Mail,
-	Users,
+	Target,
+	ShoppingCart,
+	Briefcase,
 	BarChart3,
+	RefreshCw,
+	DollarSign,
 } from "lucide-react";
 import FadeIn from "../animations/FadeIn";
 import SlideUp from "../animations/SlideUp";
 
 const iconMap = {
-	Search,
-	FileText,
-	Share2,
-	Mail,
-	Users,
+	Target,
+	ShoppingCart,
+	Briefcase,
 	BarChart3,
+	RefreshCw,
+	DollarSign,
 };
 
 const services = [
 	{
 		id: 1,
-		title: "Optimización para Motores de Búsqueda",
+		title: "Campañas en Red de Búsqueda",
 		description:
-			"Aumentaré la visibilidad de tu sitio web y atraeré tráfico orgánico con estrategias de SEO adaptadas a tus objetivos comerciales.",
+			"Atrae clientes que buscan activamente tus servicios o productos. Posicionamos tus anuncios en los primeros lugares de Google.",
 		color: "orange",
 		bgColor: "bg-accent-orange",
 		textColor: "text-white",
-		icon: "Search",
+		icon: "Target",
 	},
 	{
 		id: 2,
-		title: "Marketing de Contenidos",
+		title: "Google Shopping para E-commerce",
 		description:
-			"Crea contenido atractivo que enganche a tu audiencia e impulse leads cualificados a través de la narración estratégica.",
+			"Mostramos tus productos directamente en los resultados de búsqueda. Ideal para tiendas en Shopify y WooCommerce.",
 		color: "purple",
 		bgColor: "bg-accent-purple",
 		textColor: "text-white",
-		icon: "FileText",
+		icon: "ShoppingCart",
 	},
 	{
 		id: 3,
-		title: "Marketing en Redes Sociales",
+		title: "Campañas para Profesionales",
 		description:
-			"Construye la presencia de tu marca e interactúa con los clientes en todas las principales plataformas de redes sociales.",
+			"Generamos leads de alta calidad para abogados, doctores, consultores y otros profesionales independientes.",
 		color: "red",
 		bgColor: "bg-accent-red",
 		textColor: "text-white",
-		icon: "Share2",
+		icon: "Briefcase",
 	},
 	{
 		id: 4,
-		title: "Email Marketing",
+		title: "Remarketing Estratégico",
 		description:
-			"Diseña y ejecuta campañas de correo electrónico que cultiven leads y conviertan a los prospectos en clientes leales.",
+			"Volvemos a conectar con visitantes que no compraron, recordándoles tu propuesta de valor para cerrar la venta.",
 		color: "yellow",
 		bgColor: "bg-accent-yellow",
 		textColor: "text-white",
-		icon: "Mail",
+		icon: "RefreshCw",
 	},
 	{
 		id: 5,
-		title: "Estrategia de Marketing",
+		title: "Optimización de Tasa de Conversión (CRO)",
 		description:
-			"Desarrolla estrategias de marketing integrales que se alineen con tus objetivos comerciales e impulsen el crecimiento.",
+			"Analizamos y mejoramos tu landing page y sitio web para maximizar el retorno de cada peso invertido en publicidad.",
 		color: "teal",
 		bgColor: "bg-accent-teal",
 		textColor: "text-white",
-		icon: "Users",
+		icon: "DollarSign",
 	},
 	{
 		id: 6,
-		title: "Analítica e Informes",
+		title: "Analítica y Reportes Claros",
 		description:
-			"Sigue el rendimiento y proporciona información detallada para optimizar tus campañas de marketing y obtener un mejor ROI.",
+			"Te entregamos informes comprensibles que muestran el rendimiento real de tus campañas y el retorno de la inversión.",
 		color: "blue",
 		bgColor: "bg-primary-navy",
 		textColor: "text-white",
@@ -91,7 +91,7 @@ const ServicesSection = () => {
 				<FadeIn>
 					<div className="text-center mb-16">
 						<h2 className="section-title text-white max-w-4xl mx-auto">
-							SERVICIOS DISEÑADOS PARA IMPULSAR RESULTADOS REALES
+							SERVICIOS DE GOOGLE ADS ENFOCADOS EN TU CRECIMIENTO
 						</h2>
 					</div>
 				</FadeIn>

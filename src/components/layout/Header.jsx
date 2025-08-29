@@ -37,7 +37,7 @@ const Header = () => {
 						<div className="w-10 h-10 bg-accent-green rounded-lg flex items-center justify-center">
 							<span className="text-white logo-text text-xl">A</span>
 						</div>
-						<span className="text-white logo-text text-xl">ALEX MARTINEZ</span>
+						<span className="text-white logo-text text-xl">anunciads</span>
 					</div>
 
 					{/* Navegación de escritorio */}
@@ -58,7 +58,7 @@ const Header = () => {
 							onClick={() => scrollToSection("projects")}
 							className="text-white hover:text-accent-green transition-colors duration-300"
 						>
-							Portafolio
+							Proyectos
 						</button>
 						<button
 							onClick={() => scrollToSection("testimonials")}
@@ -111,7 +111,7 @@ const Header = () => {
 								onClick={() => scrollToSection("projects")}
 								className="text-white hover:text-accent-green transition-colors duration-300 text-left"
 							>
-								Portafolio
+								Proyectos
 							</button>
 							<button
 								onClick={() => scrollToSection("testimonials")}

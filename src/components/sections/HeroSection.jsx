@@ -30,29 +30,29 @@ const HeroSection = () => {
 					{/* Insignia */}
 					<div className="inline-flex items-center space-x-2 text-[#dad5f2] py-4 rounded-full">
 						<span className="text-md font-semibold">
-							Experto en Marketing Freelance
+							Expertos en Google Ads
 						</span>
 					</div>
 
 					{/* Título principal */}
 					<h1 className="hero-title text-white mb-8 leading-tight">
-						<span className="block">ESTRATEGIAS DE MARKETING</span>
+						<span className="block">DEJA DE PERDER DINERO</span>
 						<span className="block">
-							<span className="text-accent-purple">QUE IMPULSAN</span>{" "}
-							<span className="text-accent-orange">RESULTADOS</span>
+							<span className="text-accent-purple">Y CONSIGUE CLIENTES</span>{" "}
+							<span className="text-accent-orange">RENTABLES</span>
 						</span>
 						<span className="block text-white">
 							<Highlighter action="underline" color="var(--accent-orange)">
-								REALES
+								CON GOOGLE ADS
 							</Highlighter>
 						</span>
 					</h1>
 
 					{/* Descripción */}
 					<p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-12 leading-relaxed">
-						Hola, soy Alex Martinez, un especialista en marketing freelance que
-						ayuda a las empresas a crecer a través de estrategias basadas en
-						datos y campañas creativas que convierten.
+						Soy Wido Martinez. Ayudo a profesionales y dueños de e-commerce a
+						dejar de adivinar y a implementar campañas en Google Ads que atraen
+						clientes listos para comprar.
 					</p>
 
 					{/* Botón de CTA */}
@@ -60,7 +60,7 @@ const HeroSection = () => {
 						onClick={scrollToContact}
 						className="btn-primary text-lg px-8 py-4"
 					>
-						TRABAJEMOS JUNTOS →
+						AGENDA TU SESIÓN ESTRATÉGICA →
 					</button>
 				</div>
 			</div>

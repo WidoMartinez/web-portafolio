@@ -49,16 +49,16 @@ const CTASection = () => {
 						</p>
 						<div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
 							<a
-								href="mailto:alex@marketingexpert.com"
+								href="mailto:contacto@anunciads.cl"
 								className="text-accent-green hover:text-accent-teal transition-colors duration-300"
 							>
-								alex@marketingexpert.com
+								contacto@anunciads.cl
 							</a>
 							<a
-								href="tel:+1234567890"
+								href="tel:+56939636916"
 								className="text-accent-green hover:text-accent-teal transition-colors duration-300"
 							>
-								+1 (234) 567-890
+								+56939363916
 							</a>
 						</div>
 					</div>
