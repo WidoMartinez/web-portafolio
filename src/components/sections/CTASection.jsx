@@ -6,19 +6,20 @@ const CTASection = () => {
 	const [name, setName] = useState("");
 	const [phone, setPhone] = useState("");
 	const [email, setEmail] = useState("");
+	const [website, setWebsite] = useState(""); // Nuevo estado para el sitio web
 	const [status, setStatus] = useState("idle"); // 'idle', 'loading', 'success', 'error'
 	const [message, setMessage] = useState("");
 
-	// URL del servidor backend (la obtendrás de Render.com en la Parte 2)
-	const BACKEND_URL = "https://tu-servidor-de-correo.onrender.com/send"; // <-- ¡IMPORTANTE! Reemplaza esto más tarde
+	// URL del servidor backend actualizada
+	const BACKEND_URL = "https://anunciads.onrender.com/send-email";
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setStatus("loading");
 		setMessage("");
 
-		// Validación simple
-		if (!name || !phone || !email) {
+		// Validación simple (incluyendo el nuevo campo website)
+		if (!name || !phone || !email || !website) {
 			setStatus("error");
 			setMessage("Por favor, completa todos los campos.");
 			return;
@@ -30,7 +31,14 @@ const CTASection = () => {
 				headers: {
 					"Content-Type": "application/json",
 				},
-				body: JSON.stringify({ name, phone, email }),
+				// Enviando todos los campos requeridos por el backend
+				body: JSON.stringify({
+					name,
+					phone,
+					email,
+					website,
+					source: "Formulario de Contacto Principal",
+				}),
 			});
 
 			const result = await response.json();
@@ -44,6 +52,7 @@ const CTASection = () => {
 				setName("");
 				setPhone("");
 				setEmail("");
+				setWebsite(""); // Limpiar el nuevo campo
 			} else {
 				throw new Error(
 					result.message || "Ocurrió un error al enviar el formulario."
@@ -146,7 +155,26 @@ const CTASection = () => {
 									value={email}
 									onChange={(e) => setEmail(e.target.value)}
 									className="w-full bg-primary-dark/50 border border-gray-600 rounded-lg p-3 text-white focus:ring-2 focus:ring-accent-purple outline-none transition"
-									placeholder="tu@correo.com"
+									placeholder="tu@correo.cl"
+									disabled={status === "loading"}
+								/>
+							</div>
+
+							{/* Nuevo Campo de Sitio Web */}
+							<div>
+								<label
+									htmlFor="website"
+									className="block text-sm font-medium text-gray-300 mb-2"
+								>
+									Sitio Web
+								</label>
+								<input
+									type="text"
+									id="website"
+									value={website}
+									onChange={(e) => setWebsite(e.target.value)}
+									className="w-full bg-primary-dark/50 border border-gray-600 rounded-lg p-3 text-white focus:ring-2 focus:ring-accent-purple outline-none transition"
+									placeholder="https://tu-sitio-web.cl"
 									disabled={status === "loading"}
 								/>
 							</div>

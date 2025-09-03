@@ -6,9 +6,9 @@ const ProcessSection = () => {
 		{
 			id: 1,
 			number: "1.",
-			title: "DESCUBRIMIENTO Y CONSULTORÍA",
+			title: "AUDITORÍA Y DIAGNÓSTICO INICIAL",
 			description:
-				"Empiezo por entender los objetivos de tu negocio, tu público objetivo y los desafíos actuales para crear una estrategia de marketing a medida.",
+				"Realizamos una auditoría profunda de tu cuenta de Google Ads (si existe) y analizamos a tu competencia. Definimos tus KPIs (Indicadores Clave de Rendimiento) y establecemos objetivos claros y medibles para tus campañas.",
 			color: "green",
 			bgColor: "bg-accent-green/20",
 			textColor: "text-accent-green",
@@ -17,9 +17,9 @@ const ProcessSection = () => {
 		{
 			id: 2,
 			number: "2.",
-			title: "DESARROLLO DE ESTRATEGIA",
+			title: "ESTRATEGIA Y CONFIGURACIÓN DE CAMPAÑAS",
 			description:
-				"Basado en la investigación y el análisis, desarrollo un plan de marketing completo con objetivos claros, plazos y resultados medibles.",
+				"Diseñamos una estrategia a medida, seleccionando las redes y tipos de campaña más rentables (Búsqueda, Shopping, Performance Max). Realizamos una investigación de palabras clave y estructuramos las campañas para maximizar la relevancia y el nivel de calidad.",
 			color: "purple",
 			bgColor: "bg-accent-purple/20",
 			textColor: "text-accent-purple",
@@ -28,9 +28,9 @@ const ProcessSection = () => {
 		{
 			id: 3,
 			number: "3.",
-			title: "IMPLEMENTACIÓN Y EJECUCIÓN",
+			title: "LANZAMIENTO Y MONITOREO CONTINUO",
 			description:
-				"Ejecuto las campañas de marketing a través de los canales elegidos, manteniendo una comunicación constante y proporcionando actualizaciones regulares.",
+				"Lanzamos las campañas y monitoreamos de cerca el rendimiento diario. Nos aseguramos de que el seguimiento de conversiones funcione a la perfección para recopilar datos precisos desde el primer día.",
 			color: "blue",
 			bgColor: "bg-accent-blue/20",
 			textColor: "text-accent-blue",
@@ -39,9 +39,9 @@ const ProcessSection = () => {
 		{
 			id: 4,
 			number: "4.",
-			title: "OPTIMIZACIÓN E INFORMES",
+			title: "OPTIMIZACIÓN Y ESCALADO",
 			description:
-				"Monitoreo continuamente el rendimiento, optimizo las campañas para obtener mejores resultados y proporciono informes detallados sobre el progreso y el ROI.",
+				"Basándonos en los datos, optimizamos las pujas, los anuncios y las segmentaciones para aumentar el ROAS. Te entregamos informes transparentes y trabajamos para escalar de manera rentable las campañas que generan los mejores resultados.",
 			color: "yellow",
 			bgColor: "bg-accent-yellow/20",
 			textColor: "text-accent-yellow",
@@ -58,7 +58,7 @@ const ProcessSection = () => {
 						CÓMO TRABAJO
 					</h3>
 					<h2 className="section-title text-white max-w-4xl mx-auto">
-						MI MÉTODO DE TRABAJO
+						MI MÉTODO PARA CAMPAÑAS EXITOSAS
 					</h2>
 				</div>
 

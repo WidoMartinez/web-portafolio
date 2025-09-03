@@ -7,36 +7,39 @@ const FAQSection = () => {
 	const faqs = [
 		{
 			id: 1,
-			question: "¿Qué servicios de marketing ofreces?",
+			question:
+				"¿Qué tipo de empresas se benefician más de sus campañas de Google Ads?",
 			answer:
-				"Me especializo en SEO, marketing de contenidos, marketing en redes sociales, email marketing, desarrollo de estrategias de marketing y analítica e informes. Cada servicio se adapta a las necesidades específicas de tu negocio.",
+				"Nos especializamos en dos áreas principales: e-commerce (tiendas en Shopify, WooCommerce, etc.) que buscan maximizar sus ventas con Google Shopping, y profesionales (abogados, doctores, consultores) que necesitan generar leads de alta calidad. Si vendes productos online o tus clientes te buscan activamente en Google, podemos ayudarte.",
 			color: "green",
 			bgColor: "bg-accent-green",
 			textColor: "text-white",
 		},
 		{
 			id: 2,
-			question: "¿Cómo mides el éxito de una campaña?",
+			question:
+				"¿Cómo optimizan las campañas de Google Shopping para e-commerce?",
 			answer:
-				"Mido el éxito a través de métricas basadas en datos, incluyendo el ROI, las tasas de conversión, el crecimiento del tráfico, las tasas de engagement y los KPIs personalizados alineados con los objetivos de tu negocio.",
+				"Nuestra estrategia para e-commerce se centra en la optimización del feed de productos, la estructuración de campañas para controlar pujas a nivel de producto (SKU), y la implementación de campañas de 'Shopping Inteligente' y 'Máximo Rendimiento' (Performance Max). Además, usamos el remarketing dinámico para recuperar carritos abandonados y aumentar el valor de vida del cliente (LTV).",
 			color: "blue",
 			bgColor: "bg-accent-blue",
 			textColor: "text-white",
 		},
 		{
 			id: 3,
-			question: "¿Cómo podemos empezar a trabajar juntos?",
+			question:
+				"¿En cuánto tiempo puedo esperar ver resultados con mis campañas?",
 			answer:
-				"Simplemente contáctame para una consulta gratuita donde discutiremos tus objetivos comerciales, desafíos actuales y cómo puedo ayudarte a crear una estrategia de marketing a medida para tu éxito.",
+				"Aunque los resultados pueden variar, generalmente comenzamos a ver datos significativos y primeras conversiones en las primeras 2-4 semanas. El primer mes nos enfocamos en la recopilación de datos y la optimización inicial. Los resultados más sólidos y un ROAS (Retorno de la Inversión Publicitaria) estable se suelen observar a partir del segundo y tercer mes de gestión continua.",
 			color: "yellow",
 			bgColor: "bg-accent-yellow",
 			textColor: "text-black",
 		},
 		{
 			id: 4,
-			question: "¿Proporcionas soporte y optimización continuos?",
+			question: "¿Qué necesito para empezar a trabajar con ustedes?",
 			answer:
-				"¡Absolutamente! Proporciono monitoreo continuo de la campaña, optimizaciones regulares, informes detallados de rendimiento y ajustes estratégicos para asegurar que tus esfuerzos de marketing ofrezcan los máximos resultados.",
+				"Para comenzar, solo necesitas tener una página web o landing page funcional y un producto o servicio claro que ofrecer. Nosotros nos encargamos del resto: desde la configuración de la cuenta de Google Ads y el seguimiento de conversiones hasta la creación y optimización de las campañas. Simplemente agenda una llamada inicial para que podamos entender tu negocio y tus metas.",
 			color: "purple",
 			bgColor: "bg-accent-purple",
 			textColor: "text-white",
@@ -55,12 +58,12 @@ const FAQSection = () => {
 					<div>
 						<h3 className="section-subtitle text-accent-purple mb-4">FAQ</h3>
 						<h2 className="section-title text-white mb-6">
-							TUS PREGUNTAS RESUELTAS
+							PREGUNTAS FRECUENTES
 						</h2>
 						<p className="text-gray-300 text-lg leading-relaxed">
-							Todo lo que necesitas saber sobre mis servicios. Tenemos
-							respuestas a tus preguntas sobre los servicios y el enfoque de
-							Alex Martinez.
+							Aquí encontrarás respuestas a las dudas más comunes sobre cómo mis
+							servicios de Google Ads pueden impulsar tu e-commerce o negocio
+							profesional.
 						</p>
 					</div>
 

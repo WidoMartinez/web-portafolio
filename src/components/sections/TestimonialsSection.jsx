@@ -8,23 +8,23 @@ const TestimonialsSection = () => {
 	const testimonials = [
 		{
 			id: 1,
-			text: "Su estrategia digital disparó nuestras ventas en un 200% en solo cuatro meses. Un trabajo excepcional y clave para nuestro crecimiento.",
+			text: "Desde que Wido gestiona nuestras campañas de Google Shopping, nuestro ROAS se ha mantenido por encima de 5. Es el socio estratégico que necesitábamos para escalar.",
 			author: "Benjamín Rojas",
-			position: "Fundador de una marca de E-commerce",
+			position: "Fundador de E-commerce de Electrónica",
 			image: testimonial1,
 			rating: 5,
 		},
 		{
 			id: 2,
-			text: "La colaboración con Wido marcó un antes y un después. Su enfoque en contenidos superó nuestras expectativas, generando leads de alta calidad de manera constante.",
+			text: "Nuestra agenda se llenó. Las campañas de búsqueda para nuestra consulta legal ahora nos traen un flujo constante de casos calificados. El costo por lead bajó un 40%.",
 			author: "Sofía Núñez",
-			position: "Gerente de Marketing en Startup Tecnológica",
+			position: "Socia en Estudio de Abogados",
 			image: testimonial2,
 			rating: 5,
 		},
 		{
 			id: 3,
-			text: "Wido es un profesional increíblemente creativo y orientado a resultados. Nos guió para alcanzar nuestros objetivos mucho antes de lo previsto. ¡Totalmente recomendado!",
+			text: "Wido no solo sabe de Google Ads, sino que entiende de negocios. Su enfoque en la rentabilidad fue clave para que nuestra cafetería pudiera lanzar un exitoso servicio de suscripción online.",
 			author: "Martín Soto",
 			position: "Dueño de Cafetería de Especialidad",
 			image: testimonial3,
